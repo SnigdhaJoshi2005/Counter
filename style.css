@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Container {
+  width: 600px;
+  height: 800px;
+}
+
+#Title {
+  display: block;
+  text-align: center;
+  font-size: 50px;
+  color: #d0a5eb;
+  margin-top: 10px;
+}
+
+#Counter {
+  display: block;
+  text-align: center;
+  font-size: 400px;
+}
+
+#BtnContainer {
+  text-align: center;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 20px;
+  margin: 10px;
+  background-color: #d0a5eb;
+  color: rgb(68, 66, 69);
+  border-radius: 5px;
+  cursor: pointer;
+  trasition: background-color 0.3s ease;
+  width: 150px;
+}
+
+.btn:hover {
+  background-color: #be7ff2;
+}
